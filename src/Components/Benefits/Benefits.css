@@ -1,0 +1,33 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+  }
+  
+  .card {
+    display: flex;
+    flex: 1;
+    gap: 4px;
+    background-color: #fff;
+    padding: 0.75rem;
+  }
+  
+  .image {
+    width: 48px;
+    height: 48px;
+  }
+  
+  .title {
+    font-size: 1.125rem;
+    color: rgb(60 61 62 /100%);
+    font-weight: bold;
+    white-space: nowrap;
+    line-height: 1.75rem;
+  }
+  
+  .description {
+    color: #808080;
+    white-space: nowrap;
+  }
